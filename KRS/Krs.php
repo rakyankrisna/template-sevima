@@ -29,7 +29,7 @@ $temp_footer = 0;
         width: <?= $tb_width ?>;
         border: 1px solid;
         padding: 10px;
-        height: 600px;
+        height:fit-content;
     }
 
     .main {
@@ -54,7 +54,7 @@ $temp_footer = 0;
 <html>
 
 <head>
-    <title>Prism.js Example</title>
+    <title>Template KRS Sevima</title>
     <link rel="stylesheet" type="text/css" href="../Prism/prism.css">
     <script type="text/javascript" src="../Prism/prism.js"></script>
 </head>
@@ -217,7 +217,7 @@ $temp_footer = 0;
                 ?>
             </div>
             <!-- tutup utama     -->
-            <div class="container" style="background-color: black; overflow-y: scroll;">
+            <div class="container" style="background-color: black; overflow-y: scroll; max-height:600px">
                 <?php
                 //
                 echo '<pre><code class="language-html">' . htmlspecialchars("<div style='margin-top: 20px; font-family: 'Times New Roman', Times, serif; width: 800; margin: 0 auto;border: 1px solid;padding: 10px;'>");
