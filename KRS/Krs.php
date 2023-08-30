@@ -145,31 +145,31 @@ $temp_footer = 0;
                     <!-- body 1 -->
                     <?php
                     if ($body == 1) :
-                        echo $body1;
+                        echo($body1);
                     endif;
                     ?>
                     <!-- body 2 -->
                     <?php
                     if ($body == 2) :
-                        var_dump($body);
+                        echo($body2);
                     endif;
                     ?>
                     <!-- body 3 -->
                     <?php
                     if ($body == 3) :
-                        var_dump($body);
+                        echo($body3);
                     endif;
                     ?>
                     <!-- body 4 -->
                     <?php
                     if ($body == 4) :
-                        var_dump($body);
+                        echo($body4);
                     endif;
                     ?>
                     <!-- body 5 -->
                     <?php
                     if ($body == 5) :
-                        var_dump($body);
+                        echo($body5);
                     endif;
                     ?>
 
@@ -185,34 +185,33 @@ $temp_footer = 0;
                     <!-- footer 1 -->
                     <?php
                     if ($footer == 1) :
-                        var_dump($footer1);
+                        echo ($footer1);
                     endif;
                     ?>
                     <!-- footer 2 -->
                     <?php
                     if ($footer == 2) :
-                        var_dump($footer2);
+                        echo ($footer2);
                     endif;
                     ?>
                     <!-- footer 3 -->
                     <?php
                     if ($footer == 3) :
-                        var_dump($footer3);
+                        echo ($footer3);
                     endif;
                     ?>
                     <!-- footer 4 -->
                     <?php
                     if ($footer == 4) :
-                        var_dump($footer4);
+                        echo ($footer4);
                     endif;
                     ?>
                     <!-- footer 5 -->
                     <?php
                     if ($footer == 5) :
-                        var_dump($footer5);
+                        echo ($footer5);
                     endif;
                     ?>
-
                 <?php
                 }
                 ?>
