@@ -2,8 +2,9 @@
 
 $htmlBody1 = "";
 for ($i = 1; $i < 8; $i++) {
-    $htmlBody .= "
+    $htmlBody1 .= "
         <tr>
+            <td align='center'>$i.</td>
             <td style='text-align: center;' width='272'>
                 <p>MI-1121</p>
             </td>
@@ -19,7 +20,7 @@ for ($i = 1; $i < 8; $i++) {
 
 $htmlBody2 = "";
 for ($i = 1; $i < 8; $i++) {
-    $htmlBody .= "
+    $htmlBody2 .= "
         <tr>
             <td align='center'>$i</td>
             <td style='text-align: center;' width='272'>
@@ -38,7 +39,7 @@ for ($i = 1; $i < 8; $i++) {
 
 $htmlBody3 = "";
 for ($i = 1; $i < 8; $i++) {
-    $htmlBody .= "
+    $htmlBody3 .= "
         <tr>
             <td align='center'>$i</td>
             <td align='left'>312312</td>
@@ -54,7 +55,7 @@ for ($i = 1; $i < 8; $i++) {
 
 $htmlBody4 = "";
 for ($i = 1; $i < 8; $i++) {
-    $htmlBody .= "
+    $htmlBody4 .= "
         <tr>
             <td align='center'>$i</td>
             <td align='left'>312312</td>
@@ -70,7 +71,7 @@ for ($i = 1; $i < 8; $i++) {
 
 $htmlBody5 = "";
 for ($i = 1; $i < 8; $i++) {
-    $htmlBody .= "
+    $htmlBody5 .= "
         <tr>
             <td align='center'>$i</td>
             <td align='left'>312312</td>

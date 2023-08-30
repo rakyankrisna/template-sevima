@@ -1,38 +1,35 @@
 <?php
 $header1 = '
-<div>
-    <table>
-        <tbody>
-            <tr>
-                <td rowspan="2" width="314">
-                    <p>&nbsp;</p>
-                </td>
-                <td style="text-align: center;" colspan="2" width="420">
-                    <p><strong>KARTU RENCANA STUDI</strong></p>
-                </td>
-                <td rowspan="2" width="315">
-                    <p>&nbsp;</p>
-                </td>
-            </tr>
-            <tr>
-                <td style="text-align: center;" width="210">
-                    <p><strong>SEMESTER :</strong></p>
-                    <p>1</p>
-                </td>
-                <td style="text-align: center;" width="210">
-                    <p>BAGIAN :</p>
-                    <p>WALI AKADEMIK</p>
-                </td>
-            </tr>
-            <tr>
-                <td width="153">&nbsp;</td>
-                <td width="203">&nbsp;</td>
-                <td width="183">&nbsp;</td>
-                <td width="154">&nbsp;</td>
-            </tr>
-        </tbody>
-    </table>
-</div>';
+<table style="border-collapse: collapse; font-size: 14px;" border="1">
+<tbody>
+<tr>
+<td style="height: 94.3333px;" rowspan="2" width="314"">
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</td>
+<td style="border: 1px solid black; text-align: center; height: 65px;" colspan="2" valign="top" width="420">
+<p><strong>KARTU RENCANA STUDI</strong></p>
+</td>
+<td style="height: 94.3333px;" rowspan="2" width="315">
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr style="height: 89.3333px;">
+<td style="text-align: center; height: 59.3333px;" valign="top" width="210">
+<p><strong>SEMESTER :</strong></p>
+<p>1</p>
+</td>
+<td style="text-align: center; height: 59.3333px;" valign="top" width="210">
+<p>BAGIAN :</p>
+<p>WALI AKADEMIK&nbsp;</p>
+</td>
+</tr>
+</tbody>
+</table>
+';
 
 $header2 = '
 <div>

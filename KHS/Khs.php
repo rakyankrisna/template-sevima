@@ -15,9 +15,6 @@ $temp_footer = 0;
 
 
 <!-- Style Utama -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.28.0/themes/prism.min.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.28.0/prism.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.28.0/components/prism-php.min.js"></script>
 <style>
     :root {
         --font-utama: Arial, Helvetica, sans-serif;
@@ -41,19 +38,6 @@ $temp_footer = 0;
         gap: 30px;
         align-items: center;
     }
-
-    .prompt {
-            background-color: #000;
-            color: #fff;
-            font-family: "Courier New", Courier, monospace;
-            padding: 10px;
-            margin-bottom: 20px;
-            border-radius: 5px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            white-space: pre-wrap;
-            font-size: 14px;
-            line-height: 1.4;
-        }
 
     @media print {
         .input_header {
@@ -262,43 +246,59 @@ $temp_footer = 0;
                     endif;
                     ?>
 
-        <?php
-        }
-        ?>
-    </div>
-    <!-- tutup utama     -->
-    <div class="container" style="margin-top: 20px;">
-        <?php
-        //
-        echo htmlentities("<div style='margin-top: 20px; font-family: 'Times New Roman', Times, serif; width: 800; margin: 0 auto;border: 1px solid;padding: 10px;'>");
-        //head
-        if ($temp_head == 1) {
-            echo htmlentities($header1);
-        } elseif ($temp_head == 2) {
-            echo htmlentities($header2);
-        } elseif ($temp_head == 3) {
-            echo htmlentities($header3);
-        } elseif ($temp_head == 4) {
-            echo htmlentities($header4);
-        } else {
-            echo htmlentities($header5);
-        }
-        //body
-        if ($temp_body == 1) {
-            echo htmlentities($body1);
-        } elseif ($temp_body == 2) {
-            echo htmlentities($body2);
-        } elseif ($temp_body == 3) {
-            echo htmlentities($body3);
-        } elseif ($temp_body == 4) {
-            echo htmlentities($body4);
-        } else {
-            echo htmlentities($body5);
-        }
-        //
-        echo htmlentities("</div>");
-        ?>
-    </div>
-<?php
-}
-?>
+                <?php
+                }
+                ?>
+            </div>
+            <!-- tutup utama     -->
+            <div class="container" style="background-color: black; overflow-y: scroll;">
+                <?php
+                //
+                echo '<pre><code class="language-html">' . htmlspecialchars("<div style='margin-top: 20px; font-family: 'Times New Roman', Times, serif; width: 800; margin: 0 auto;border: 1px solid;padding: 10px;'>");
+                //head
+                if ($temp_head == 1) {
+                    echo htmlspecialchars($header1);
+                } elseif ($temp_head == 2) {
+                    echo htmlspecialchars($header2);
+                } elseif ($temp_head == 3) {
+                    echo htmlspecialchars($header3);
+                } elseif ($temp_head == 4) {
+                    echo htmlspecialchars($header4);
+                } else {
+                    echo htmlspecialchars($header5);
+                }
+                //body
+                if ($temp_body == 1) {
+                    echo htmlspecialchars($body1);
+                } elseif ($temp_body == 2) {
+                    echo htmlspecialchars($body2);
+                } elseif ($temp_body == 3) {
+                    echo htmlspecialchars($body3);
+                } elseif ($temp_body == 4) {
+                    echo htmlspecialchars($body4);
+                } else {
+                    echo htmlspecialchars($body5);
+                }
+                //footer
+                if ($temp_footer == 1) {
+                    echo htmlspecialchars($footer1);
+                } elseif ($temp_footer == 2) {
+                    echo htmlspecialchars($footer2);
+                } elseif ($temp_footer == 3) {
+                    echo htmlspecialchars($footer3);
+                } elseif ($temp_footer == 4) {
+                    echo htmlspecialchars($footer4);
+                } else {
+                    echo htmlspecialchars($footer5);
+                }
+
+                echo htmlspecialchars("</div>") . '</pre></code>';
+                ?>
+            </div>
+        </div>
+    <?php
+    }
+    ?>
+</body>
+
+</html>
