@@ -1,42 +1,37 @@
 <?php
 $header1 = '
 <div>
-    <div style="text-align: center;">
-        <p style="font-weight: bold; font-size: 15pt; text-decoration: underline; text-decoration-thickness: 1px; display: inline;">
-            KARTU HASIL STUDI (KHS)
-        </p>
-        <br>
-        <p style="display: inline; font-weight: bold;">
-            2021 Genap
-        </p>
-    </div>
-    <div style="margin-top: 25px;">
-        <table style="border-collapse: collapse; font-size: 14px;" width="100%">
-            <tbody>
-                <tr>
-                    <td width="80px">SEMESTER</td>
-                    <td width="7px">:</td>
-                    <td width="50px">2</td>
-                    <td width="50px">PROGRAM STUDI</td>
-                    <td width="7px">:</td>
-                    <td width="50px">MANAJEMEN</td>
-                </tr>
-                <tr>
-                    <td>NPM</td>
-                    <td>:</td>
-                    <td>84294899234</td>
-                    <td>NAMA</td>
-                    <td>:</td>
-                    <td>FULAN</td>
-                </tr>
-                <tr>
-                    <td>PEMBIMBING AKADEMIK</td>
-                    <td>:</td>
-                    <td>JAMES BOND</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
+    <table>
+        <tbody>
+            <tr>
+                <td rowspan="2" width="314">
+                    <p>&nbsp;</p>
+                </td>
+                <td style="text-align: center;" colspan="2" width="420">
+                    <p><strong>KARTU RENCANA STUDI</strong></p>
+                </td>
+                <td rowspan="2" width="315">
+                    <p>&nbsp;</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: center;" width="210">
+                    <p><strong>SEMESTER :</strong></p>
+                    <p>1</p>
+                </td>
+                <td style="text-align: center;" width="210">
+                    <p>BAGIAN :</p>
+                    <p>WALI AKADEMIK</p>
+                </td>
+            </tr>
+            <tr>
+                <td width="153">&nbsp;</td>
+                <td width="203">&nbsp;</td>
+                <td width="183">&nbsp;</td>
+                <td width="154">&nbsp;</td>
+            </tr>
+        </tbody>
+    </table>
 </div>';
 
 $header2 = '
