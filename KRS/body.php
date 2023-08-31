@@ -49,13 +49,10 @@ for ($i = 1; $i < 8; $i++) {
     $htmlBody3 .= "
         <tr>
             <td align='center'>$i</td>
-            <td align='left'>312312</td>
-            <td align='left'>BIOLOGI</td>
-            <td align='center'>3</td>
-            <td align='center'>A</td>
-            <td align='center'>4.00</dtd>
-            <td align='center'>12</td>
-            <td align='center'>LULUS</td>
+            <td align='center'>AFE121</td>
+            <td align='left'>Financial Management 1</td>
+            <td align='center'>4 cu</td>
+            <td align='center'>2BA</td>
         </tr>
     ";
 }
@@ -169,6 +166,43 @@ $body2 = "
     </table>
 </div>
 ";
-$body3 = '';
+$body3 = "
+<div style='margin-top: 5px;'>
+    <table style='border-collapse: collapse; font-size: 14px;' border='1' width='100%'>
+        <tbody>
+            <tr>
+                <td align='center' width='77'>
+                    <p><strong>No.</strong></p>
+                </td>
+                <td align='center' width='243'>
+                    <p><strong>Course Code</strong></p>
+                </td>
+                <td align='center' width='410'>
+                    <p><strong>Course Name</strong></p>
+                </td>
+                <td align='center' width='204'>
+                    <p><strong>Credit Unit</strong></p>
+                </td>
+                <td align='center' width='116'>
+                    <p><strong>Class</strong></p>
+                </td>
+            </tr>
+            $htmlBody3
+            <tr>
+                <td colspan='3' width='729'>
+                    <p><strong>Total Credit</strong></p>
+                </td>
+                <td align='center' width='204'>
+                    <p>20 cu</p>
+                </td>
+                <td width='116'>
+                    <p>&nbsp;</p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+";
+
 $body4 = '';
 $body5 = '';
