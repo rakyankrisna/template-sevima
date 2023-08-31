@@ -119,29 +119,54 @@ $body1 = "
 $body2 = "
 <div style='margin-top: 5px;'>
     <table style='border-collapse: collapse; font-size: 14px;' border='1' width='100%'>
-<tr>
-<td style='text-align: center; width: 37px;'>
-<p>NO.</p>
-</td>
-<td style='text-align: center; width: 87.1458px;'>
-<p>KODE</p>
-</td>
-<td style='text-align: center; width: 499.854px;'>
-<p>MATAKULIAH</p>
-</td>
-<td style='text-align: center; width: 42px;'>
-<p>SKS</p>
-</td>
-<td style='text-align: center; width: 66px;'>
-<p>KELAS</p>
-</td>
-<td style='text-align: center; width: 251px;'>
-<p>JADWAL KULIAH</p>
-</td>
-</tr>
-$htmlBody2
-</tbody>
-</table>
+        <tbody>
+            <tr>
+                <td style='text-align: center; width: 37px;'>
+                    <p>NO.</p>
+                </td>
+                <td style='text-align: center; width: 87.1458px;'>
+                    <p>KODE</p>
+                </td>
+                <td style='text-align: center; width: 485.854px;'>
+                    <p>MATAKULIAH</p>
+                </td>
+                <td style='text-align: center; width: 42px;'>
+                    <p>SKS</p>
+                </td>
+                <td style='text-align: center; width: 66px;'>
+                    <p>KELAS</p>
+                </td>
+                <td style='text-align: center; width: 265px;'>
+                    <p>JADWAL KULIAH</p>
+                </td>
+            </tr>
+            $htmlBody2
+        </tbody>
+    </table>
+    <table style='border-collapse: collapse; font-size: 14px;' border='0' width='100%'>
+        <tbody>    
+            <tr>
+            <td style='text-align: center; width: 39px;'>
+            <p>&nbsp;</p>
+            </td>
+            <td style='text-align: center; width: 100.1458px;'>
+                <p>&nbsp;</p>
+            </td>
+            <td style='text-align: left; width: 462.854px;'>
+                <p>Total SKS yang diambil</p>
+            </td>
+            <td style='text-align: center; width: 43px;'>
+                <p>21</p>
+            </td>
+            <td style='text-align: center; width: 75px;'>
+                <p>&nbsp;</p>
+            </td>
+            <td style='text-align: center; width: 250px;'>
+                <p>&nbsp;</p>
+            </td>
+            </tr>
+        </tbody>
+    </table>
 </div>
 ";
 $body3 = '';

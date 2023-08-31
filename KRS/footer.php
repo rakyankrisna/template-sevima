@@ -89,7 +89,7 @@ $footer1 = "
             </tr>
             <tr>
                 <td width='154'>
-                    <p>&nbsp;</p>
+                    <p>NIP</p>
                 </td>
                 <td colspan='2' width='42'>
                     <p>&nbsp;</p>
@@ -139,7 +139,34 @@ $footer1 = "
 </div>
 ";
 
-$footer2 = "Halo";
+$footer2 = "
+<div style='margin-top: 25px;'>
+    <table style='border-collapse: collapse; margin-left: auto; margin-right: auto; font-size: 14px;' border='0' width='100%'>
+        <tbody>
+            <tr style='height: 13px;'>
+                <td style='height: 13px;'>Ketua Prodi</td>
+                <td style='height: 13px;'>Penasihat Akademik</td>
+                <td style='height: 13px;'>Mahasiswa</td>
+            </tr>
+            <tr style='height: 97px;'>
+                <td style='height: 97px;'>&nbsp;</td>
+                <td style='height: 97px;'>&nbsp;</td>
+                <td style='height: 97px;'>&nbsp;</td>
+            </tr>
+            <tr style='height: 14.3333px;'>
+                <td style='height: 14.3333px;'>Dr. Rakyan Krisna, S.Kom., M.kom.</td>
+                <td style='height: 14.3333px;'>Fahmi Ady Susilo, S.Kom., M.Kom</td>
+                <td style='height: 14.3333px;'>Samalakana bin Samalakatur</td>
+            </tr>
+            <tr style='height: 13px;'>
+                <td style='height: 13px;'>NIP. 0987654321</td>
+                <td style='height: 13px;'>NIP. 1234567890</td>
+                <td style='height: 13px;'>NIM. 1029384756</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+";
 $footer3 = "";
 $footer4 = "";
 $footer5 = "";
