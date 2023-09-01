@@ -94,21 +94,21 @@ $footer2 = '
                 <td width="" colspan="2" align="center"><u>Catatan :</u></td>
             </tr>
             <tr>
-                <td>1.</td>
+                <td style=" vertical-align: text-top;">1.</td>
                 <td>Kartu ujian harus tetap dibawa selama ujian, dan diperlihatkan kepada pengawas sebelum soal dibagikan. Bagi mahasiswa yang belum
                 memiliki kartu ujian/hilang/ketinggalan, silakan melapor pada panitia.</td>
             </tr>
             <tr>
-                <td>2.</td>
+                <td style=" vertical-align: text-top;">2.</td>
                 <td>Berpakaian sopan dan rapi selama ujian, tidak diperkenankan memakai sandal, berambut gondrong, serta memakai anting-anting (bagi laki
                 laki).</td>
             </tr>
             <tr>
-                <td>3.</td>
+                <td style=" vertical-align: text-top;">3.</td>
                 <td>Tidak diperkenankan menggunakan alat komunikasi dan informasi apapun, mencontek, atau bekerja sama selama ujian berlangsung</td>
             </tr>
             <tr>
-                <td>4.</td>
+                <td style=" vertical-align: text-top;">4.</td>
                 <td>Bagi Mahasiswa yang melanggar ketentuan di atas, tidak diperkenankan mengikuti ujian.</td>
             </tr>
         </tr>
