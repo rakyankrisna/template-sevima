@@ -1,6 +1,6 @@
 <?php
 
-$htmlBody1 = "";
+$htmlBody1 = '';
 for ($i = 1; $i < 8; $i++) {
     $htmlBody1 .= "
         <tr>
@@ -18,7 +18,7 @@ for ($i = 1; $i < 8; $i++) {
     ";
 }
 
-$htmlBody2 = "";
+$htmlBody2 = '';
 for ($i = 1; $i < 8; $i++) {
     $htmlBody2 .= "
     <tr>
@@ -44,11 +44,11 @@ for ($i = 1; $i < 8; $i++) {
     ";
 }
 
-$htmlBody3 = "";
+$htmlBody3 = '';
 for ($i = 1; $i < 8; $i++) {
     $htmlBody3 .= "
         <tr>
-            <td align='center'>$i</td>
+            <td align='center'>$i.</td>
             <td align='center'>AFE121</td>
             <td align='left'>Financial Management 1</td>
             <td align='center'>4 cu</td>
@@ -57,23 +57,22 @@ for ($i = 1; $i < 8; $i++) {
     ";
 }
 
-$htmlBody4 = "";
+$htmlBody4 = '';
 for ($i = 1; $i < 8; $i++) {
     $htmlBody4 .= "
         <tr>
-            <td align='center'>$i</td>
-            <td align='left'>312312</td>
-            <td align='left'>BIOLOGI</td>
-            <td align='center'>3</td>
-            <td align='center'>A</td>
-            <td align='center'>4.00</td>
-            <td align='center'>12</td>
-            <td align='center'>LULUS</td>
+            <td align='center'>$i.</td>
+            <td align='center'>PL22301</td>
+            <td align='left'>Infrastruktur Perkeretaapian dan Kontruksi Kereta Api</td>
+            <td align='center'>2</td>
+            <td align='center'>2A</td>
+            <td align='left'>Dr. Rakyan Krisna, S.Kom., M.Kom.</td>
+
         </tr>
     ";
 }
 
-$htmlBody5 = "";
+$htmlBody5 = '';
 for ($i = 1; $i < 8; $i++) {
     $htmlBody5 .= "
         <tr>
@@ -111,7 +110,8 @@ $body1 = "
             $htmlBody1
         </tbody>
     </table>
-</div>";
+</div>
+";
 
 $body2 = "
 <div style='margin-top: 5px;'>
@@ -166,8 +166,9 @@ $body2 = "
     </table>
 </div>
 ";
+
 $body3 = "
-<div style='margin-top: 5px;'>
+<div style='margin-top: 25px;'>
     <table style='border-collapse: collapse; font-size: 14px;' border='1' width='100%'>
         <tbody>
             <tr>
@@ -204,5 +205,34 @@ $body3 = "
 </div>
 ";
 
-$body4 = '';
+$body4 = "
+<div style='margin-top: 0px;'>
+    <table style='border-collapse: collapse; font-size: 9pt;' border='1' width='100%'>
+        <tbody>
+                <p><strong style='font-size: 9pt;'>Mata Kuliah yang ditempuh:</strong></p>
+            <tr>
+                <td align='center' width='39'>
+                    <p><strong>No</strong></p>
+                </td>
+                <td align='center' width='104'>
+                    <p><strong>Kode MK</strong></p>
+                </td>
+                <td align='center' width='1400'>
+                    <p><strong>Mata Kuliah</strong></p>
+                </td>
+                <td align='center' width='54'>
+                    <p><strong>SKS</strong></p>
+                </td>
+                <td align='center' width='69'>
+                    <p><strong>Kelas</strong></p>
+                </td>
+                <td align='center' width='900'>
+                    <p><strong>Dosen Pengampu</strong></p>
+                </td>
+            </tr>
+            $htmlBody4
+        </tbody>
+    </table>
+</div>
+";
 $body5 = '';

@@ -167,6 +167,72 @@ $footer2 = "
     </table>
 </div>
 ";
-$footer3 = "";
-$footer4 = "";
-$footer5 = "";
+
+$footer3 = "
+<div style='margin-top: 25px;'>
+    <p>Note:</p>
+    <p>1 Copy For Student<br />1 copy for Academic Operation Departement <br />1 Copy For Finance Departement</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <table style='border-collapse: collapse; margin-left: auto; margin-right: auto; font-size: 14px;' border='0' width='100%'>
+        <tbody>
+            <tr style='height: 13px;'>
+                <td style='width: 245.396px; text-align: center; height: 13px;'>&nbsp;</td>
+                <td style='width: 194.604px; text-align: center; height: 13px;'>&nbsp;</td>
+                <td style='width: 248px; text-align: center; height: 13px;'>Jakarta, February 9th, 2023</td>
+            </tr>
+            <tr style='height: 13px;'>
+                <td style='width: 245.396px; text-align: center; height: 13px;'>Approved By,</td>
+                <td style='width: 194.604px; text-align: center; height: 13px;'>&nbsp;</td>
+                <td style='width: 248px; text-align: center; height: 13px;'>Filled By,</td>
+            </tr>
+            <tr style='height: 90.6667px;'>
+                <td style='width: 245.396px; text-align: center; height: 90.6667px;'>&nbsp;</td>
+                <td style='width: 194.604px; text-align: center; height: 90.6667px;'>&nbsp;</td>
+                <td style='width: 248px; text-align: center; height: 90.6667px;'>&nbsp;</td>
+            </tr>
+            <tr style='height: 13px;'>
+                <td style='width: 245.396px; text-align: center; height: 13px;'>Academic Advisor</td>
+                <td style='width: 194.604px; text-align: center; height: 13px;'>&nbsp;</td>
+                <td style='width: 248px; text-align: center; height: 13px;'>Student</td>
+            </tr>
+            <tr style='height: 13px;'>
+                <td style='width: 245.396px; text-align: center; height: 13px;'>Dr. Rakyan Krisna</td>
+                <td style='width: 194.604px; text-align: center; height: 13px;'>&nbsp;</td>
+                <td style='width: 248px; text-align: center; height: 13px;'>Muhammad Fahmi</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+";
+
+$footer4 = "
+<div style='margin-top: 25px;'>
+    <table style='border-collapse: collapse; margin-left: auto; margin-right: auto; font-size: 9pt;' border='0' width='100%'>
+        <tbody>
+            <tr style='height: 13px;'>
+                <td style='width: 245.396px; text-align: left; height: 13px;'>&nbsp;</td>
+                <td style='width: 194.604px; text-align: left; height: 13px;'>&nbsp;</td>
+                <td style='width: 248px; text-align: left; height: 13px;'>Madiun, 9 Februari 2023</td>
+            </tr>
+            <tr style='height: 13px;'>
+                <td style='width: 245.396px; text-align: left; height: 13px;'>Mahasiswa,</td>
+                <td style='width: 194.604px; text-align: left; height: 13px;'>&nbsp;</td>
+                <td style='width: 248px; text-align: left; height: 13px;'>Dosen Pembina Akademik</td>
+            </tr>
+            <tr style='height: 90.6667px;'>
+                <td style='width: 245.396px; text-align: left; height: 90.6667px;'>&nbsp;</td>
+                <td style='width: 194.604px; text-align: left; height: 90.6667px;'>&nbsp;</td>
+                <td style='width: 248px; text-align: left; height: 90.6667px;'>&nbsp;</td>
+            </tr>
+            <tr style='height: 13px;'>
+                <td style='width: 245.396px; text-align: left; height: 13px;'>Fahmi Ady Susilo</td>
+                <td style='width: 194.604px; text-align: left; height: 13px;'>&nbsp;</td>
+                <td style='width: 248px; text-align: left; height: 13px;'>Dr. Rakyan Krisna, S.Kom., M.Kom.</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+";
+$footer5 = '';

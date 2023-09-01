@@ -118,74 +118,40 @@ $header3 = '
     </div>
 </div>
 ';
-$header6 = '
-<div>
-    <div style="text-align: center;">
-        <p style="font-weight: bold; font-size: 15pt; text-decoration: underline; text-decoration-thickness: 1px;">
-            KARTU HASIL STUDI (KHS)
-        </p>
-        <p style="font-weight: bold; margin-top: 5px;">
-            SEMESTER 5 - 2022 Ganjil
-        </p>
-    </div>
-    <div style="margin-top: 25px;">
-        <table style="border-collapse: collapse; font-size: 14px;" width="100%">
-            <tbody>
-                <tr>
-                    <td width="180px">NAMA</td>
-                    <td width="7px">:</td>
-                    <td width="">FULAN</td>
-                </tr>
-                <tr>
-                    <td>NPM</td>
-                    <td>:</td>
-                    <td>84294899234</td>
-                </tr>
-                <tr>
-                    <td>PROGRAM STUDI</td>
-                    <td>:</td>
-                    <td>MANAJEMEN</td>
-                </tr>
-                <tr>
-                    <td>PEMBIMBING AKADEMIK</td>
-                    <td>:</td>
-                    <td>JAMES BOND</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-</div>
-';
 
 $header4 = '
 <div>
     <div style="text-align: center;">
-        <p style="font-weight: bold; font-size: 13pt; text-decoration: underline; text-decoration-thickness: 1px;">
-            FINAL GRADE REPORT (KHS)
+        <p style="font-weight: bold; font-size: 12pt; text-decoration-thickness: 1px; display: inline;">
+            KARTU RENCANA STUDI (KRS)
+        </p>
+        <br>
+        <p style="font-weight: bold; font-size: 12pt; text-decoration-thickness: 1px; display: inline;">
+            SEMESTER GENAP
+        </p>
+        <br>
+        <p style="font-weight: bold; font-size: 12pt; text-decoration-thickness: 1px; display: inline;">
+            TAHUN AKADEMIK 2022/2023
         </p>
     </div>
     <div style="margin-top: 25px;">
-        <table style="border-collapse: collapse; font-size: 14px;" width="100%">
+        <table style="border-collapse: collapse; font-size: 9.5pt;" width="100%">
             <tbody>
                 <tr>
-                    <td>NIM</td>
-                    <td>:</td>
-                    <td>84294899234</td>
+                    <td width="45px"><strong>Nama Mahasiswa</strong></td>
+                    <td width="7px"><strong>:</strong></td>
+                    <td width="50px">Samalakana bin Samalakatur</td>
+                    <td width="50px"><strong>Jurusan</strong></td>
+                    <td width="7px"><strong>:</strong></td>
+                    <td width="85px">Teknik</td>
                 </tr>
                 <tr>
-                    <td width="180px">Student Name</td>
-                    <td width="7px">:</td>
-                    <td width="">FULAN</td>
-                </tr>
-                <tr>
-                    <td>Semester / Academic Year</td>
-                    <td>:</td>
-                    <td>4 / 2021 / 2022 Gasal</td>
-                </tr>
-                <tr>
-                    <td>Batch / Class / Major</td>
-                    <td>:</td>
-                    <td>3848 / PR03B-eL / PJJ Ilmu Komunikasi</td>
+                    <td><strong>N I M</strong></td>
+                    <td><strong>:</strong></td>
+                    <td>123321123</td>
+                    <td><strong>Program Studi</strong></td>
+                    <td><strong>:</strong></td>
+                    <td>Teknik Pembentukan Logam</td>
                 </tr>
             </tbody>
         </table>
@@ -223,6 +189,45 @@ $header5 = '
                     <td>SEMESTER</td>
                     <td>:</td>
                     <td>2</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+';
+
+$header6 = '
+<div>
+    <div style="text-align: center;">
+        <p style="font-weight: bold; font-size: 15pt; text-decoration: underline; text-decoration-thickness: 1px;">
+            KARTU HASIL STUDI (KHS)
+        </p>
+        <p style="font-weight: bold; margin-top: 5px;">
+            SEMESTER 5 - 2022 Ganjil
+        </p>
+    </div>
+    <div style="margin-top: 25px;">
+        <table style="border-collapse: collapse; font-size: 14px;" width="100%">
+            <tbody>
+                <tr>
+                    <td width="180px">NAMA</td>
+                    <td width="7px">:</td>
+                    <td width="">FULAN</td>
+                </tr>
+                <tr>
+                    <td>NPM</td>
+                    <td>:</td>
+                    <td>84294899234</td>
+                </tr>
+                <tr>
+                    <td>PROGRAM STUDI</td>
+                    <td>:</td>
+                    <td>MANAJEMEN</td>
+                </tr>
+                <tr>
+                    <td>PEMBIMBING AKADEMIK</td>
+                    <td>:</td>
+                    <td>JAMES BOND</td>
                 </tr>
             </tbody>
         </table>
