@@ -237,4 +237,44 @@ $footer4 = "
 </div>
 ";
 
-$footer5 = '';
+$footer5 = "
+<div style='margin-top: 25px;'>
+    <table>
+        <tbody>
+            <tr>
+                <td width='340'>
+                    <p>&nbsp;</p>
+                </td>
+                <td rowspan='4' width='340'>&nbsp;</td>
+                <td width='340'>
+                    <p>Surakarta, 9 Februari 2023</p>
+                </td>
+            </tr>
+            <tr>
+                <td width='340'>
+                    <p>MAHASISWA,</p>
+                </td>
+                <td width='340'>
+                    <p>PEMBIMBING AKADEMIK,</p>
+                </td>
+            </tr>
+            <tr>
+                <td width='340' height='100'>
+                    <p>&nbsp;</p>
+                </td>
+                <td width='340' height='100'>
+                    <p>&nbsp;</p>
+                </td>
+            </tr>
+            <tr>
+                <td width='340'>
+                    <p>Samalakana bin Samalakatur</p>
+                </td>
+                <td width='340'>
+                    <p>Dr. Rakyan Krisna, S.Kom., M.Kom</p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+";
