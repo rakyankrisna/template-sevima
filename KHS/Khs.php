@@ -13,7 +13,6 @@ $temp_body = 0;
 $temp_footer = 0;
 ?>
 
-
 <!-- Style Utama -->
 <style>
     :root {
@@ -29,8 +28,9 @@ $temp_footer = 0;
         width: <?= $tb_width ?>;
         border: 1px solid;
         padding: 10px;
-        height: 600px;
+        height: fit-content;
     }
+
 
     .main {
         display: flex;
@@ -40,12 +40,23 @@ $temp_footer = 0;
     }
 
     @media print {
+
+
         .input_header {
             display: none;
         }
 
+        .main{
+            width: 100%;
+        }
+
         .container {
             border: none;
+            width: 100%
+        }
+
+        .hide {
+            display: none;
         }
     }
 </style>
@@ -54,7 +65,7 @@ $temp_footer = 0;
 <html>
 
 <head>
-    <title>Prism.js Example</title>
+    <title>Custom Report</title>
     <link rel="stylesheet" type="text/css" href="../Prism/prism.css">
     <script type="text/javascript" src="../Prism/prism.js"></script>
 </head>
@@ -74,14 +85,14 @@ $temp_footer = 0;
             <input type="radio" name="body" value="1" <?php if (isset($_POST['body']) && $_POST['body'] === '1') echo 'checked'; ?>>1<br>
             <input type="radio" name="body" value="2" <?php if (isset($_POST['body']) && $_POST['body'] === '2') echo 'checked'; ?>>2<br>
             <input type="radio" name="body" value="3" <?php if (isset($_POST['body']) && $_POST['body'] === '3') echo 'checked'; ?>>3<br>
-            <input type="radio" name="body" value="4" <?php if (isset($_POST['body']) && $_POST['body'] === '4') echo 'checked'; ?>>5<br>
+            <input type="radio" name="body" value="4" <?php if (isset($_POST['body']) && $_POST['body'] === '4') echo 'checked'; ?>>4<br>
             <input type="radio" name="body" value="5" <?php if (isset($_POST['body']) && $_POST['body'] === '5') echo 'checked'; ?>>5<br>
             <!-- input footer -->
             <p>Footer</p>
             <input type="radio" name="footer" value="1" <?php if (isset($_POST['footer']) && $_POST['footer'] === '1') echo 'checked'; ?>>1<br>
             <input type="radio" name="footer" value="2" <?php if (isset($_POST['footer']) && $_POST['footer'] === '2') echo 'checked'; ?>>2<br>
             <input type="radio" name="footer" value="3" <?php if (isset($_POST['footer']) && $_POST['footer'] === '3') echo 'checked'; ?>>3<br>
-            <input type="radio" name="footer" value="4" <?php if (isset($_POST['footer']) && $_POST['footer'] === '4') echo 'checked'; ?>>5<br>
+            <input type="radio" name="footer" value="4" <?php if (isset($_POST['footer']) && $_POST['footer'] === '4') echo 'checked'; ?>>4<br>
             <input type="radio" name="footer" value="5" <?php if (isset($_POST['footer']) && $_POST['footer'] === '5') echo 'checked'; ?>>5<br>
             <!-- submit -->
             <input type="submit" value="Submit">
@@ -151,25 +162,25 @@ $temp_footer = 0;
                     <!-- body 2 -->
                     <?php
                     if ($body == 2) :
-                        var_dump($body);
+                        echo $body2;
                     endif;
                     ?>
                     <!-- body 3 -->
                     <?php
                     if ($body == 3) :
-                        var_dump($body);
+                        echo $body3;
                     endif;
                     ?>
                     <!-- body 4 -->
                     <?php
                     if ($body == 4) :
-                        var_dump($body);
+                        echo $body4;
                     endif;
                     ?>
                     <!-- body 5 -->
                     <?php
                     if ($body == 5) :
-                        var_dump($body);
+                        echo $body5;
                     endif;
                     ?>
 
@@ -185,64 +196,31 @@ $temp_footer = 0;
                     <!-- footer 1 -->
                     <?php
                     if ($footer == 1) :
-                    ?>
-                        <div style="margin-top: 20px;">
-                            <table width="100%" style="border-collapse: collapse; font-size: 12px;">
-                                <tbody>
-                                    <tr>
-                                        <td width="" style="font-weight: bold;">Indeks Prestasi</td>
-                                        <td width="250px">Surakarta, 8 Februari 2023</td>
-                                    </tr>
-                                    <tr>
-                                        <td style="font-weight: bold;">Beban SKS Maks Sem. yang akan Datang 12</td>
-                                        <td>PEMBIMBING AKADEMIK</td>
-                                    </tr>
-                                    <?php
-                                    for ($i = 0; $i < 4; $i++) {
-                                    ?>
-                                        <tr>
-                                            <td>&nbsp;</td>
-                                            <td>&nbsp;</td>
-                                        </tr>
-                                    <?php
-                                    }
-                                    ?>
-                                    <tr>
-                                        <td></td>
-                                        <td><u>Dr.Fulan S.MG</u></td>
-                                    </tr>
-                                    <tr>
-                                        <td></td>
-                                        <td>NIDN. 10391031203</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    <?php
+                        echo $footer1;
                     endif;
                     ?>
                     <!-- footer 2 -->
                     <?php
                     if ($footer == 2) :
-                        var_dump($footer);
+                        echo $footer2;
                     endif;
                     ?>
                     <!-- footer 3 -->
                     <?php
                     if ($footer == 3) :
-                        var_dump($footer);
+                        echo $footer3;
                     endif;
                     ?>
                     <!-- footer 4 -->
                     <?php
                     if ($footer == 4) :
-                        var_dump($footer);
+                        echo $footer4;
                     endif;
                     ?>
                     <!-- footer 5 -->
                     <?php
                     if ($footer == 5) :
-                        var_dump($footer);
+                        echo $footer5;
                     endif;
                     ?>
 
@@ -251,7 +229,7 @@ $temp_footer = 0;
                 ?>
             </div>
             <!-- tutup utama     -->
-            <div class="container" style="background-color: black; overflow-y: scroll;">
+            <div class="container hide" style="background-color: black; overflow-y: scroll; max-height: 600px;">
                 <?php
                 //
                 echo '<pre><code class="language-html">' . htmlspecialchars("<div style='margin-top: 20px; font-family: 'Times New Roman', Times, serif; width: 800; margin: 0 auto;border: 1px solid;padding: 10px;'>");
