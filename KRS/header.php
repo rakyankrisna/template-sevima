@@ -161,34 +161,42 @@ $header4 = '
 
 $header5 = '
 <div>
-    <div style="text-align: center;">
-        <p style="font-weight: bold; font-size: 14pt; display: inline;">
-            STUDY RESULTS
-        </p>
-    </div>
     <div style="margin-top: 25px;">
-        <table style="border-collapse: collapse; font-size: 12px;" width="100%">
+        <table style="border-collapse: collapse; font-size: 9.5pt;" width="100%">
             <tbody>
                 <tr>
-                    <td width="190px">STUDENT ID</td>
-                    <td width="7px">:</td>
-                    <td>84294899234</td>
-                    <td width="200px">PROGRAM</td>
-                    <td width="7px">:</td>
-                    <td width="200px">S1 MANAJEMEN</td>
+                    <td width="45px"><strong>NAMA MAHASISWA</strong></td>
+                    <td width="7px"><strong>:</strong></td>
+                    <td width="200px"><strong>SAMALAKANA BIN SAMALAKATUR</strong></td>
+                    <td width="50px"><strong>JURUSAN</strong></td>
+                    <td width="7px"><strong>:</strong></td>
+                    <td width="85px"><strong>SBY-MALANG</strong></td>
                 </tr>
                 <tr>
-                    <td>NAME</td>
-                    <td>:</td>
-                    <td>FULAN</td>
-                    <td>ACADEMIC YEAR [SEM]</td>
-                    <td>:</td>
-                    <td>20172 [JANUARY - JANUARY]</td>
+                    <td><strong>NIM</strong></td>
+                    <td><strong>:</strong></td>
+                    <td><strong>082011633033</strong></td>
+                    <td><strong>SEMESTER</strong></td>
+                    <td><strong>:</strong></td>
+                    <td><strong>7</strong></td>
                 </tr>
                 <tr>
-                    <td>SEMESTER</td>
-                    <td>:</td>
-                    <td>2</td>
+                    <td width="150px"><strong>JUMLAH SKS YANG DIPEROLEH</strong></td>
+                    <td><strong>:</strong></td>
+                    <td><strong>24 SKS</strong></td>
+                    <td><strong>IPK</strong></td>
+                    <td><strong>:</strong></td>
+                    <td><strong>3.90</strong></td>
+                </tr>
+            </tbody>
+        </table>
+        <table style="text-align: center; border-collapse: collapse; font-size: 9.5pt; margin-top: 20px;" width="100%" border="1">
+            <tbody>
+                <tr>
+                    <td>
+                        <p white-space: pre-line;><strong>KARTU RENCANA STUDI</strong></p>
+                        <p>2022 GANJIL</p>
+                    </td>
                 </tr>
             </tbody>
         </table>

@@ -76,14 +76,12 @@ $htmlBody5 = '';
 for ($i = 1; $i < 8; $i++) {
     $htmlBody5 .= "
         <tr>
-            <td align='center'>$i</td>
-            <td align='left'>312312</td>
-            <td align='left'>BIOLOGI</td>
+            <td align='center'>$i.</td>
+            <td align='center'>181030010</td>
+            <td align='left'>HUKUM KEWARGANEGARAAN DAN KEIMIGRASIAN</td>
             <td align='center'>3</td>
-            <td align='center'>A</td>
-            <td align='center'>4.00</td>
-            <td align='center'>12</td>
-            <td align='center'>LULUS</td>
+            <td align='center'>01</td>
+            <td align='center'>Dr. Rakyan Krisna Dewangga</td>
         </tr>
     ";
 }
@@ -235,4 +233,34 @@ $body4 = "
     </table>
 </div>
 ";
-$body5 = '';
+
+$body5 ="
+<div style='margin-top: 5px;'>
+    <table style='border-collapse: collapse; font-size: 9pt;' border='1' width='100%'>
+        <tbody>
+                <p><strong style='font-size: 9pt;'>Mata Kuliah yang ditempuh:</strong></p>
+            <tr>
+                <td align='center' width='39'>
+                    <p><strong>NO.</strong></p>
+                </td>
+                <td align='center' width='104'>
+                    <p><strong>KODE MK</strong></p>
+                </td>
+                <td align='center' width='1400'>
+                    <p><strong>MATA KULIAH</strong></p>
+                </td>
+                <td align='center' width='54'>
+                    <p><strong>SKS</strong></p>
+                </td>
+                <td align='center' width='69'>
+                    <p><strong>KELAS</strong></p>
+                </td>
+                <td align='center' width='900'>
+                    <p><strong>DOSEN PEMBINA</strong></p>
+                </td>
+            </tr>
+            $htmlBody5
+        </tbody>
+    </table>
+</div>
+";
