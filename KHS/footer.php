@@ -282,5 +282,3 @@ $footer5 = '
 ';
 
 ?>
-
-<p style="font-weight: bold;"></p>
