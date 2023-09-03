@@ -2,37 +2,52 @@
 $header1 = '
 <div>
     <div style="text-align: center;">
-        <p style="font-weight: bold; font-size: 15pt; text-decoration: underline; text-decoration-thickness: 1px; display: inline;">
-            KARTU HASIL STUDI (KHS)
-        </p>
-        <br>
-        <p style="display: inline; font-weight: bold;">
-            2021 Genap
+        <p style="font-weight: bold; font-size: 11pt; text-decoration-thickness: 1px; display: inline;">
+            TEMPORARY ACADEMIC TRANSCRIPT
         </p>
     </div>
-    <div style="margin-top: 25px;">
-        <table style="border-collapse: collapse; font-size: 14px;" width="100%">
+    <div style="margin-top: 15px;">
+        <table style="border-collapse: collapse; font-size: 9pt;" width="100%">
             <tbody>
                 <tr>
-                    <td width="80px">SEMESTER</td>
-                    <td width="7px">:</td>
-                    <td width="50px">2</td>
-                    <td width="50px">PROGRAM STUDI</td>
-                    <td width="7px">:</td>
-                    <td width="50px">MANAJEMEN</td>
+                    <td width="25%">Student Number</td>
+                    <td width="1%">:</td>
+                    <td width="74%">123123123</td>
                 </tr>
                 <tr>
-                    <td>NPM</td>
+                    <td>Name</td>
                     <td>:</td>
-                    <td>84294899234</td>
-                    <td>NAMA</td>
-                    <td>:</td>
-                    <td>FULAN</td>
+                    <td>2</td>
                 </tr>
                 <tr>
-                    <td>PEMBIMBING AKADEMIK</td>
+                    <td>Place & Date of Birth</td>
                     <td>:</td>
-                    <td>JAMES BOND</td>
+                    <td>Surabaya, 11th February 2000</td>
+                </tr>
+                <tr>
+                    <td>Admission</td>
+                    <td>:</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Program</td>
+                    <td>:</td>
+                    <td>Master</td>
+                </tr>
+                <tr>
+                    <td>Study Program</td>
+                    <td>:</td>
+                    <td>S2 Teknologi Informasi</td>
+                </tr>
+                <tr>
+                    <td>Total Credits</td>
+                    <td>:</td>
+                    <td>136</td>
+                </tr>
+                <tr>
+                    <td>Grade Point Avarage (GPA)</td>
+                    <td>:</td>
+                    <td>3,55</td>
                 </tr>
             </tbody>
         </table>

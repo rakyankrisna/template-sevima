@@ -2,55 +2,55 @@
 
 
 $footer1 = '
-<div style="">
+<div style="margin-top:20px;">
     <table width="100%" style="border-collapse: collapse; font-size: 12px;">
-    <tbody>
-    <tr>
-        <td width="260px" style="font-weight: bold;">&nbsp;</td>
-        <td width="260px" style="font-weight: bold;">&nbsp;</td>
-        <td width="">Surakarta, 8 Februari 2023</td>
-    </tr>
-    <tr>
-        <td style="font-weight: bold;">&nbsp;</td>
-        <td width="" style="font-weight: bold;">&nbsp;</td>
-        <td>PEMBIMBING AKADEMIK</td>
-    </tr>
-    <tr>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-    </tr>
-    <tr>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-    </tr>
-    <tr>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-    </tr>
-    <tr>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-    </tr>
-    <tr>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        <td><u>Dr.Fulan S.MG</u></td>
-    </tr>
-    <tr>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        <td>NIDN. 10391031203</td>
-    </tr>
-    </tbody>
+        <tbody>
+            <tr>
+                <td width="260px"&nbsp;</td>
+                <td width="260px">&nbsp;</td>
+                <td width="">Jakarta,</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>Director of Academic & Student Affairs</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>Dr. Rakyan Krisna, S.Kom., M.Kom.</td>
+            </tr>
+        </tbody>
     </table>
 </div>
 ';
 $footer2 = '
-<div style=" margin-top:20px;">
+<div style="margin-top:20px;">
     <table width="100%" style=" margin-top:25px; border-collapse: collapse; font-size: 14px;">
         <tbody>
             <tr>

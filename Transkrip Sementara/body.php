@@ -1,17 +1,14 @@
 <?php
 
 $htmlBody1 = '';
-for ($i = 1; $i < 8; $i++) {
+for ($i = 1; $i < 10; $i++) {
     $htmlBody1 .= "
         <tr>
-            <td style='border: 1px solid; padding:4px;' align='center'>$i</td>
-            <td style='border: 1px solid; padding:4px;' align='left'>Fisika Rekayasa</td>
-            <td style='border: 1px solid; padding:4px;' align='left'>312312</td>
-            <td style='border: 1px solid; padding:4px;' align='center'>3</td>
-            <td style='border: 1px solid; padding:4px;' align='center'>A</td>
-            <td style='border: 1px solid; padding:4px;' align='center'>4.00</td>
-            <td style='border: 1px solid; padding:4px;' align='center'>12</td>
-            <td style='border: 1px solid; padding:4px;' align='center'>LULUS</td>
+            <td style='border: 0; padding:4px;' align='left'>AFE513</td>
+            <td style='border: 0; padding:4px;' align='left'>Managerial Accounting</td>
+            <td style='border: 0; padding:4px;' align='center'>2</td>
+            <td style='border: 0; padding:4px;' align='center'>A</td>
+            <td style='border: 0; padding:4px;' align='center'>8</td>
         </tr>
     ";
 }
@@ -79,46 +76,24 @@ for ($i = 1; $i < 8; $i++) {
 
 $body1 = " 
 <div style='margin-top: 5px;'>
-    <table style='border-collapse: collapse; font-size: 14px;' width='100%'>
+    <table style='border-collapse: collapse; font-size: 8.5pt;' width='100%'>
         <thead>
             <tr>
-                <th style='border: 1px solid;' width='40px' rowspan='2'>No.</th>
-                <th style='border: 1px solid;' width='' rowspan='2'>NAMA MATA KULIAH</th>
-                <th style='border: 1px solid;' width='90px' rowspan='2'>KODE</th>
-                <th style='border: 1px solid;' width='50px' rowspan='2'>SKS</th>
-                <th style='border: 1px solid;' width='' colspan='3'>NILAI AKHIR</th>
-                <th style='border: 1px solid;' width='140px' rowspan='2'>Ket</th>
-            </tr>
-            <tr>
-                <th style='border: 1px solid;' width='50px'>HM</th>
-                <th style='border: 1px solid;' width='50px'>NM</th>
-                <th style='border: 1px solid;' width='50px'>KN</th>
+                <th style='border: 0;' width='25%'>COURSE CODE</th>
+                <th style='border: 0;' width='45%'>COURSES</th>
+                <th style='border: 0;' width='10%'>CREDIT POINT</th>
+                <th style='border: 0;' width='10%'>GRADE</th>
+                <th style='border: 0;' width='10%'>WEIGHTED SCORE</th>
             </tr>
         </thead>
         <tbody>
             $htmlBody1
-            <tr>
-                <td style='border: 1px solid;' colspan='3' align='center'>JUMLAH</td>
-                <td style='border: 1px solid;' align='center'>20</td>
-                <td style='border: 1px solid;' align='center'></td>
-                <td style='border: 1px solid;' align='center'></td>
-                <td style='border: 1px solid;' align='center'>12</td>
-                <td style='border: 1px solid;' align='center'></td>
-            </tr>
-        </tbody>
     </table>
     <table style='border-collapse: collapse; font-size: 12px; margin-top:15px' width='100%'>
         <tbody>
-        <tr>
-            <td width='260px' style='font-weight: bold; padding:4px;'>Indeks Prestasi</td>
-            <td width='260px' style='font-weight: bold; padding:4px;'>: 2.60</td>
-            <td width=''></td>
-        </tr>
-        <tr>
-            <td style='font-weight: bold; padding:4px;'>Beban SKS Maks Sem. yang akan Datang</td>
-            <td width='' style='font-weight: bold; padding:4px;'>: 24</td>
-            <td></td>
-        </tr>
+            <tr>
+                <td style='border: 1px solid; align='left'><em>*See reverse for explanation of grade, grade point average (GPA) calculation, and predicate based on GPA</em></td>
+            </tr>
         </tbody>
     </table>
 </div>";

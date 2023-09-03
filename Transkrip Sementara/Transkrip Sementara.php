@@ -65,7 +65,7 @@ $temp_footer = 0;
 <html>
 
 <head>
-    <title>Custom Report - Transkrip Sementara</title>
+    <title>Template Transkrip Sementara</title>
     <link rel="stylesheet" type="text/css" href="../Prism/prism.css">
     <script type="text/javascript" src="../Prism/prism.js"></script>
 </head>
