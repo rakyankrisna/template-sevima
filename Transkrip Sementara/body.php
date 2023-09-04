@@ -63,15 +63,23 @@ for ($i = 1; $i < 7; $i++) {
 
 
 $htmlBody5 = '';
-for ($i = 1; $i < 8; $i++) {
+for ($i = 1; $i < 12; $i++) {
+    $j = $i + 11;
     $htmlBody5 .= "
     <tr>
-        <td style='border: 1px solid; padding:4px;' align='center'>$i</td>
-        <td style='border: 1px solid; padding:4px;' align='center'>312312</td>
-        <td style='border: 1px solid; padding:4px;' align='left'>Fisika Rekayasa</td>
-        <td style='border: 1px solid; padding:4px;' align='center'>3</td>
-        <td style='border: 1px solid; padding:4px;' align='center'>A</td>
-        <td style='border: 1px solid; padding:4px;' align='center'>6.9</td>
+        <td style='border: 0; padding:4px;' align='center'>$i</td>
+        <td style='border: 0; padding:4px;' align='center'>FP0101</td>
+        <td style='border: 0; padding:4px;' align='left'>PENGANTAR ILMU PERTANIAN</td>
+        <td style='border: 0; padding:4px;' align='center'>3</td>
+        <td style='border: 0; padding:4px;' align='center'>A</td>
+        <td style='border: 0; padding:4px;' align='center'>8.00</td>
+        <td></>
+        <td style='border: 0; padding:4px;' align='center'>$j</td>
+        <td style='border: 0; padding:4px;' align='center'>FP0101</td>
+        <td style='border: 0; padding:4px;' align='left'>PENGANTAR ILMU PERTANIAN</td>
+        <td style='border: 0; padding:4px;' align='center'>3</td>
+        <td style='border: 0; padding:4px;' align='center'>A</td>
+        <td style='border: 0; padding:4px;' align='center'>8.00</td>
     </tr>
     ";
 }
@@ -323,85 +331,71 @@ $body4 = "
 ";
 
 $body5 = "
-<div style='margin-top: 15px;'>
-<table style='border-collapse: collapse; font-size: 12px; text-align: center;' width='100%'>
-    <thead style='border-top: 1px solid; border-bottom: 1px solid;'>
-        <tr>
-            <th style='border: 1px solid;' width='40px'>No.</th>
-            <th style='border: 1px solid;' width='50px'>Course Code</th>
-            <th style='border: 1px solid;' width=''>Course Name</th>
-            <th style='border: 1px solid;' width='80px'>Credit Unit</th>
-            <th style='border: 1px solid;' width='80px'>Grade</th>
-            <th style='border: 1px solid;' width='170px'>Weighted Score</th>
-        </tr>
-    </thead>
-    <tbody style='border-top: 1px solid; border-bottom: 1px solid;'>
-        $htmlBody5
-        <tr>
-            <td style='border: 1px solid;' align='center'>&nbsp;</td>
-            <td style='border: 1px solid;' align='center'>&nbsp;</td>
-            <td style='border: 1px solid;' align='center'>&nbsp;</td>
-            <td style='border: 1px solid;' align='center'>&nbsp;</td>
-            <td style='border: 1px solid;' align='center'>&nbsp;</td>
-            <td style='border: 1px solid;' align='center'>&nbsp;</td>
-        </tr>
-        <tr>
-            <td style='border: 1px solid;' align='center'>&nbsp;</td>
-            <td style='border: 1px solid;' align='center'>&nbsp;</td>
-            <td style='border: 1px solid;' align='center'>&nbsp;</td>
-            <td style='border: 1px solid;' align='center'>&nbsp;</td>
-            <td style='border: 1px solid;' align='center'>&nbsp;</td>
-            <td style='border: 1px solid;' align='center'>&nbsp;</td>
-        </tr>
-        <tr>
-            <td style='border: 1px solid;' align='center'>&nbsp;</td>
-            <td style='border: 1px solid;' align='center' colspan='2'>Credit Units for this Semester</td>
-            <td style='border: 1px solid;' align='center'>19</td>
-            <td style='border: 1px solid;' align='center'>&nbsp;</td>
-            <td style='border: 1px solid;' align='center'>&nbsp;</td>
-        </tr>
-        <tr>
-            <td style='border: 1px solid;' align='center'>&nbsp;</td>
-            <td style='border: 1px solid;' align='center' colspan='2'>Grade Point Average for this Semester</td>
-            <td style='border: 1px solid;' align='center'>2.46</td>
-            <td style='border: 1px solid;' align='center'>&nbsp;</td>
-            <td style='border: 1px solid;' align='center'>&nbsp;</td>
-        </tr>
-        <tr>
-            <td style='border: 1px solid;' align='center'>&nbsp;</td>
-            <td style='border: 1px solid;' align='center' colspan='2'>Credit Units Cumulative</td>
-            <td style='border: 1px solid;' align='center'>37</td>
-            <td style='border: 1px solid;' align='center'>&nbsp;</td>
-            <td style='border: 1px solid;' align='center'>&nbsp;</td>
-        </tr>
-        <tr>
-            <td style='border: 1px solid;' align='center'>&nbsp;</td>
-            <td style='border: 1px solid;' align='center' colspan='2'>Grade Point Average Cumulative</td>
-            <td style='border: 1px solid;' align='center'>2.79</td>
-            <td style='border: 1px solid;' align='center'>&nbsp;</td>
-            <td style='border: 1px solid;' align='center'>&nbsp;</td>
-        </tr>
-
-    </tbody>
-</table>
-<table style='border-collapse: collapse; font-size: 12px; margin-top:15px' width='100%'>
-    <tbody>
-        <tr>
-            <td width='240px' style='font-weight: bold;'>Cc:</td>
-            <td width='210px'></td>
-            <td width='' style='text-align: center;'></td>
-        </tr>
-        <tr>
-            <td style='font-weight: bold;'>1. Student</td>
-            <td width=''></td>
-            <td width=''></td>
-        </tr>
-        <tr>
-            <td style='font-weight: bold;'>2. Academic Operations</td>
-            <td width=''></td>
-            <td></td>
-        </tr>
-    </tbody>
-</table>
-</div>
-";
+<div style='margin-top: 5px;'>
+    <table style='text-align: center; border-collapse: collapse; font-size: 9pt;' width='100%'>
+        <thead>
+            <tr>
+                <th style='border: 0;' width='2.5%'><strong>No</strong></th>
+                <th style='border: 0;' width='2.5%'><strong>Kode</strong></th>
+                <th style='border: 0;' width='33.75%'><strong>Nama Mata Kuliah</strong></th>
+                <th style='border: 0;' width='2.5%'><strong>SKS</strong></th>
+                <th style='border: 0;' width='2.5%'><strong>Nilai Huruf</strong></th>
+                <th style='border: 0;' width='5%'><strong>Total Bobot</strong></th>
+                <th style='border: 0;' width='2.5%'></th>
+                <th style='border: 0;' width='2.5%'><strong>No</strong></th>
+                <th style='border: 0;' width='2.5%'><strong>Kode</strong></th>
+                <th style='border: 0;' width='33.75%'><strong>Nama Mata Kuliah</strong></th>
+                <th style='border: 0;' width='2.5%'><strong>SKS</strong></th>
+                <th style='border: 0;' width='2.5%'><strong>Nilai Huruf</strong></th>
+                <th style='border: 0;' width='5%'><strong>Total Bobot</strong></th>
+            </tr>
+        </thead>
+        <tbody>
+            $htmlBody5
+        </tbody>
+    </table>
+    <table style='border-collapse: collapse; font-size: 9pt; margin-top:15px' width='100%'>
+        <tbody>
+            <tr>
+                <td> Judul Tugas Akhir</td>
+                <td>:</td>
+                <td colspan='4'>&nbsp;</td>
+            </tr>
+            <tr>
+                <td colspan='6'>KETERANGAN</td>
+            </tr>
+            <tr>
+                <td>SKS</td>
+                <td>:&nbsp;</td>
+                <td>Satuan Kredit Semester</td>
+                <td>Jumlah SKS Yang Diambil</td>
+                <td>:</td>
+                <td>32</td>
+            </tr>
+            <tr>
+                <td> HM</td>
+                <td>:</td>
+                <td>Huruf Mutu</td>
+                <td>Jumlah SKS Yang lulus</td>
+                <td>:</td>
+                <td>32</td>
+            </tr>
+            <tr>
+                <td> AM </td>
+                <td>:</td>
+                <td>Angka Mutu</td>
+                <td> Jumlah Mutu</td>
+                <td>:</td>
+                <td>117</td>
+            </tr>
+            <tr>
+                <td>M</td>
+                <td>:</td>
+                <td>Mutu</td>
+                <td>Index Prestasi Kumulatif (IPK)</td>
+                <td>:</td>
+                <td>3.66</td>
+            </tr>
+        </tbody>
+    </table>
+</div>";

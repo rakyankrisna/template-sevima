@@ -180,33 +180,57 @@ $header4 = '
 $header5 = '
 <div>
     <div style="text-align: center;">
-        <p style="font-weight: bold; font-size: 14pt; display: inline;">
-            STUDY RESULTS
+        <p style="font-weight: bold; font-size: 13pt; text-decoration: underline; text-decoration-thickness: 1px;">
+            TRANSKRIP SEMENTARA
+        </p>
+    </div>
+    <div style="text-align: center; margin-top: 25px;">
+        <p style="font-weight: bold; font-size: 9pt; text-decoration-thickness: 1px;">
+            NOMOR : TS-05/2023/04/09
         </p>
     </div>
     <div style="margin-top: 25px;">
-        <table style="border-collapse: collapse; font-size: 12px;" width="100%">
+        <table style="border-collapse: collapse; font-size: 9pt;" width="100%">
             <tbody>
                 <tr>
-                    <td width="190px">STUDENT ID</td>
-                    <td width="7px">:</td>
-                    <td>84294899234</td>
-                    <td width="200px">PROGRAM</td>
-                    <td width="7px">:</td>
-                    <td width="200px">S1 MANAJEMEN</td>
+                    <td width="15%">Nama</td>
+                    <td width="1%">:</td>
+                    <td width="34%"><strong>Samalakana bin Samalakatur</strong></td>
+                    <td width="15%">Fakultas</td>
+                    <td width="1%">:</td>
+                    <td width="34%"><strong>Fakultas Pertanian (S-1)</strong></td>
                 </tr>
                 <tr>
-                    <td>NAME</td>
+                    <td>NIM</td>
                     <td>:</td>
-                    <td>FULAN</td>
-                    <td>ACADEMIC YEAR [SEM]</td>
+                    <td><strong>123321123</strong></td>
+                    <td>Program Studi</td>
                     <td>:</td>
-                    <td>20172 [JANUARY - JANUARY]</td>
+                    <td><strong>Teknik Pertanian Semanggi</strong></td>
                 </tr>
                 <tr>
-                    <td>SEMESTER</td>
+                    <td>Tempat Lahir</td>
                     <td>:</td>
-                    <td>2</td>
+                    <td><strong>Cibinong</strong></td>
+                    <td>Jenjang</td>
+                    <td>:</td>
+                    <td><strong>S-1</strong></td>
+                </tr>
+                <tr>
+                    <td>Tanggal Lahir</td>
+                    <td>:</td>
+                    <td><strong>1 Januari 2000</strong></td>
+                    <td>Tanggal Lulus</td>
+                    <td>:</td>
+                    <td><strong>9 Agustus 2023</strong></td>
+                </tr>
+                <tr>
+                    <td>Program Pendidikan</td>
+                    <td>:</td>
+                    <td><strong>Teknik Pertanian Semanggi</strong></td>
+                    <td>Nomor Ijazah</td>
+                    <td>:</td>
+                    <td><strong>LULUS/1927/12/12/313</td>
                 </tr>
             </tbody>
         </table>
