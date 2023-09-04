@@ -57,46 +57,6 @@ $header1 = '
 $header2 = '
 <div>
     <div style="text-align: center;">
-        <p style="font-weight: bold; font-size: 15pt; text-decoration: underline; text-decoration-thickness: 1px; display: inline;">
-            KARTU HASIL STUDI (KHS)
-        </p>
-    </div>
-    <div style="margin-top: 25px;">
-        <table style="border-collapse: collapse; font-size: 14px;" width="100%">
-            <tbody>
-                <tr>
-                    <td width="80px">NAMA</td>
-                    <td width="7px">:</td>
-                    <td width="50px">FULAN</td>
-                    <td width="50px">FAKULTAS</td>
-                    <td width="7px">:</td>
-                    <td width="50px">FEB</td>
-                </tr>
-                <tr>
-                    <td>NIM</td>
-                    <td>:</td>
-                    <td>84294899234</td>
-                    <td>PROGRAM STUDI</td>
-                    <td>:</td>
-                    <td>MANAJEMEN</td>
-                </tr>
-                <tr>
-                    <td>SEMESTER</td>
-                    <td>:</td>
-                    <td>7</td>
-                    <td>TAHUN AKADEMIK</td>
-                    <td>:</td>
-                    <td>2022 GANJIL</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-</div>
-';
-
-$header3 = '
-<div>
-    <div style="text-align: center;">
         <p style="font-weight: bold; font-size: 15pt; text-decoration: underline; text-decoration-thickness: 1px;">
             KARTU HASIL STUDI (KHS)
         </p>
@@ -126,6 +86,54 @@ $header3 = '
                     <td>PEMBIMBING AKADEMIK</td>
                     <td>:</td>
                     <td>JAMES BOND</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+';
+
+$header3 = '
+<div>
+    <div style="text-align: center;">
+        <p style="font-weight: bold; font-size: 15pt; text-decoration-thickness: 1px; display: inline;">
+            TRANSKRIP SEMENTARA
+        </p>
+    </div>
+    <div style="margin-top: 15px;">
+        <table style="border-collapse: collapse; font-size: 9pt;" width="100%">
+            <tbody>
+            <tr>
+                    <td width="15%">Program Studi</td>
+                    <td width="1%">:</td>
+                    <td width="34%">Teknik Perkapalan</td>
+                    <td width="15%"></td>
+                    <td width="1%"></td>
+                    <td width="34%"></td>
+                </tr>
+                <tr>
+                    <td width="15%">NIM</td>
+                    <td width="1%">:</td>
+                    <td width="34%">0201201210</td>
+                    <td width="15%">Jenjang Pendidikan</td>
+                    <td width="1%">:</td>
+                    <td width="34%">S-1</td>
+                </tr>
+                <tr>
+                    <td width="15%">Tempat Lahir</td>
+                    <td width="1%">:</td>
+                    <td width="34%">Amsterdam</td>
+                    <td width="15%">Nama</td>
+                    <td width="1%">:</td>
+                    <td width="34%">Samalakan bin Samalakatur</td>
+                </tr>
+                <tr>
+                    <td width="15%">Tanggal Lahir</td>
+                    <td width="1%">:</td>
+                    <td width="34%">29 Februari 2000</td>
+                    <td width="15%">Tahun Masuk</td>
+                    <td width="1%">:</td>
+                    <td width="34%">2018</td>
                 </tr>
             </tbody>
         </table>

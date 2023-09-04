@@ -35,11 +35,13 @@ $htmlBody3 = '';
 for ($i = 1; $i < 8; $i++) {
     $htmlBody3 .= "
         <tr>
-            <td width='40px'>$i</td>
-            <td width='90px'>312312</td>
-            <td width=''>Fisika Rekayasa</td>
-            <td width='50px'>3</td>
-            <td width=''>4.00</td>
+            <td style='border: 1px solid; padding:4px;' align='center'>$i.</td>
+            <td style='border: 1px solid; padding:4px;' align='center'>MKU2201</td>
+            <td style='border: 1px solid; padding:4px;' align='left'>Pekerjaan Dasar Teknik Perkapalan</td>
+            <td style='border: 1px solid; padding:4px;' align='center'>A</td>
+            <td style='border: 1px solid; padding:4px;' align='center'>4.00</td>
+            <td style='border: 1px solid; padding:4px;' align='center'>2</td>
+            <td style='border: 1px solid; padding:4px;' align='center'>8</td>
         </tr>
     ";
 }
@@ -202,37 +204,68 @@ $body2 = "
 
 
 $body3 = "
-<div style='margin-top: 15px;'>
-    <table style='border-collapse: collapse; font-size: 14px; text-align: center;' width='100%'>
-        <thead style='border-top: 1px solid; border-bottom: 1px solid;'>
+<div style='margin-top: 5px;'>
+    <table style='text-align: center; border-collapse: collapse; font-size: 9pt;' width='100%'>
+        <thead>
             <tr>
-                <th width='40px'>NO.</th>
-                <th width='90px'>KODE MK</th>
-                <th width=''>NAMA MATA KULIAH</th>
-                <th width='50px'>SKS</th>
-                <th width=''>NILAI</th>
+                <th style='border: 1px solid;' width='5%'><strong>NO</strong></th>
+                <th style='border: 1px solid;' width='10%'><strong>KODE</strong></th>
+                <th style='border: 1px solid;' width='60%'><strong>MATA KULIAH</strong></th>
+                <th style='border: 1px solid;' width='5%'><strong>NILAI</strong></th>
+                <th style='border: 1px solid;' width='5%'><strong>A.M</strong></th>
+                <th style='border: 1px solid;' width='5%'><strong>SKS</strong></th>
+                <th style='border: 1px solid;' width='10%'><strong>BOBOT</strong></th>
             </tr>
         </thead>
-        <tbody style='border-top: 1px solid; border-bottom: 1px solid;'>
+        <tbody>
             $htmlBody3
         </tbody>
     </table>
-    <table style='border-collapse: collapse; font-size: 12px; margin-top:15px' width='100%'>
+    <table style='border-collapse: collapse; font-size: 9pt; margin-top:15px' width='100%'>
         <tbody>
-        <tr>
-            <td width='240px' style='font-weight: bold;'>Indeks Prestasi (IP)</td>
-            <td width='210px' style='font-weight: bold;'>: 2.50</td>
-            <td width='' style='text-align: center;'></td>
-        </tr>
-        <tr>
-        <td style='font-weight: bold;'>Jumlah SKS</td>
-        <td width='' style='font-weight: bold;'>: 21</td>
-        <td style='text-align: center;'></td>
-        </tr>
+            <tr>
+                <td> Judul Tugas Akhir</td>
+                <td>:</td>
+                <td colspan='4'>&nbsp;</td>
+            </tr>
+            <tr>
+                <td colspan='6'>KETERANGAN</td>
+            </tr>
+            <tr>
+                <td>SKS</td>
+                <td>:&nbsp;</td>
+                <td>Satuan Kredit Semester</td>
+                <td>Jumlah SKS Yang Diambil</td>
+                <td>:</td>
+                <td>32</td>
+            </tr>
+            <tr>
+                <td> HM</td>
+                <td>:</td>
+                <td>Huruf Mutu</td>
+                <td>Jumlah SKS Yang lulus</td>
+                <td>:</td>
+                <td>32</td>
+            </tr>
+            <tr>
+                <td> AM </td>
+                <td>:</td>
+                <td>Angka Mutu</td>
+                <td> Jumlah Mutu</td>
+                <td>:</td>
+                <td>117</td>
+            </tr>
+            <tr>
+                <td>M</td>
+                <td>:</td>
+                <td>Mutu</td>
+                <td>Index Prestasi Kumulatif (IPK)</td>
+                <td>:</td>
+                <td>3.66</td>
+            </tr>
         </tbody>
     </table>
-</div>
-";
+</div>";
 
 
 $body4 = "

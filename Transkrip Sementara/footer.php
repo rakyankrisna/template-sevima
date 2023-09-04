@@ -49,6 +49,7 @@ $footer1 = '
     </table>
 </div>
 ';
+
 $footer2 = '
 <div style="margin-top:20px;">
     <table width="100%" style=" margin-top:25px; border-collapse: collapse; font-size: 14px;">
@@ -89,49 +90,46 @@ $footer2 = '
     </table>
 </div>
 ';
+
 $footer3 = '
-<div style="">
-    <table width="100%" style="border-collapse: collapse; font-size: 12px;">
+<div style="margin-top:25px;">
+    <table width="100%" style=" margin-top:25px; border-collapse: collapse; font-size: 9pt;">
         <tbody>
             <tr>
-                <td width="240px" style="font-weight: bold;"></td>
-                <td width="210px"></td>
-                <td width="" style="text-align: center;">Surakarta, 8 Februari 2023</td>
+                <td width="70%"></td>
+                <td width="30%">Madiun, 9 Februari 2023</td>
             </tr>
             <tr>
-                <td style="font-weight: bold;"></td>
-                <td width=""></td>
-                <td style="text-align: center;">Dosen Wali,</td>
+                <td>Wakil Direktur 1 Bidang Akademik,</td>
+                <td>Direktur</td>
             </tr>
             <tr>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
+                <td>Politeknik Negeri Madiun</td>
+                <td>Politeknik Negeri Madiun</td>
             </tr>
             <tr>
-                <td>&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
             </tr>
             <tr>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
                 <td>&nbsp;</td>
             </tr>
             <tr>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
-                <td>&nbsp;</td>
             </tr>
             <tr>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td style="text-align: center;"><u>Dr.Fulan S.MG</u></td>
+                <td><u>Dr. Rakyan Krisna, S.Kom., M.Kom.</u></td>
+                <td><u>Dr. Fahmi Ady Susilo, S.Kom., M.Kom.</u></td>
             </tr>
             <tr>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td style="text-align: center;">NIDN. 10391031203</td>
+                <td>NIP. 12391389700</td>
+                <td>NIP. 10391031203</td>
             </tr>
         </tbody>
     </table>
