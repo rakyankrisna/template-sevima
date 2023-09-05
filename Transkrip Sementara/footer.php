@@ -52,44 +52,51 @@ $footer1 = '
 
 $footer2 = '
 <div style="margin-top:20px;">
-    <table width="100%" style=" margin-top:25px; border-collapse: collapse; font-size: 14px;">
+    <table width="100%" style=" margin-top:25px; border-collapse: collapse; font-size: 7.5pt;">
         <tbody>
             <tr>
-                <td width="">Mengesahkan</td>
-                <td width="250px">Surakarta, 8 Februari 2023</td>
+                <td width="40%"></td>
+                <td width="30%"></td>
+                <td width="30%"><strong>Jakarta, 9 Februari 2023</strong></td>
             </tr>
             <tr>
-                <td>Ketua Prodi Teknik Informatika</td>
-                <td>Dosen Pembimbing Akademik</td>
+                <td><strong>Reminder:</strong></td>
+                <td><strong>Head of Postgraduate Programme in Communication,</strong></td>
+                <td><strong>Director of Undergraduate Program,</strong></td>
             </tr>
             <tr>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-            </tr>
-            <tr>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-            </tr>
-            <tr>
+                <td><strong>1.This is a provisionary transcript for internal use only</strong></td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
             </tr>
             <tr>
+                <td><strong>2.A Grade of E in any subject should be repeated</strong>;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
             </tr>
             <tr>
-                <td><u>Dr. Fudin S.MG</u></td>
-                <td><u>Dr.Fulan S.MG</u></td>
+                <td><strong>3.No Student will be allowed to do thesis defense with Failing Grade or back subject</strong></td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
             </tr>
             <tr>
-                <td>NIDN. 12391389700</td>
-                <td>NIDN. 10391031203</td>
+                <td><strong>4.LSPR Communication and Business Institute reserve right to expel any student who knowingly alters or duplicate this provisionary transcript</strong></td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+            <td>&nbsp;</td>
+                <td><u>Dr. Rakyan Krisna, S.Kom., M.Kom.</u></td>
+                <td><u>Dr. Fahmi Ady Susilo, S.Kom., M.Kom.</u></td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>NIP. 12391389700</td>
+                <td>NIP. 10391031203</td>
             </tr>
         </tbody>
     </table>
-</div>
-';
+</div>';
 
 $footer3 = '
 <div style="margin-top:25px;">
@@ -136,102 +143,51 @@ $footer3 = '
 </div>';
 
 $footer4 = '
-<div style="display: flex; gap:10px">
-    <table style="margin-top: 15px; border-collapse: collapse; font-size: 12px;" width="50%" border="1">
-        <thead>
-            <tr>
-                <th style="border: 1px solid; padding:4px;" align="left">Score</th>
-                <th style="border: 1px solid;" align="center">Grade</th>
-                <th style="border: 1px solid;" align="center">Equivalent</th>
-            </tr>
-        </thead>
+<div style="margin-top:25px;">
+    <table width="100%" style=" margin-top:25px; border-collapse: collapse; font-size: 7.5pt;">
         <tbody>
             <tr>
-                <td width="33.3%" style="border: 1px solid; padding:4px;" align="left">90.00 - 100.00</td>
-                <td width="33.3%" style="border: 1px solid;" align="center">A</td>
-                <td width="33.3%" style="border: 1px solid;" align="center">4.00</td>
+                <td width="70%"></td>
+                <td width="30%">Jakarta, 9 Februari 2023</td>
             </tr>
             <tr>
-                <td style="border: 1px solid; padding:4px;" align="left">90.00 - 100.00</td>
-                <td style="border: 1px solid;" align="center">A-</td>
-                <td style="border: 1px solid;" align="center">4.00</td>
+                <td></td>
+                <td>Ketua Program Studi,</td>
             </tr>
             <tr>
-                <td style="border: 1px solid; padding:4px;" align="left">90.00 - 100.00</td>
-                <td style="border: 1px solid;" align="center">B+</td>
-                <td style="border: 1px solid;" align="center">4.00</td>
+                <td></td>
+                <td><em>Head of Department</em></td>
             </tr>
             <tr>
-                <td style="border: 1px solid; padding:4px;" align="left">90.00 - 100.00</td>
-                <td style="border: 1px solid;" align="center">B</td>
-                <td style="border: 1px solid;" align="center">4.00</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
             </tr>
             <tr>
-                <td style="border: 1px solid; padding:4px;" align="left">90.00 - 100.00</td>
-                <td style="border: 1px solid;" align="center">B-</td>
-                <td style="border: 1px solid;" align="center">4.00</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
             </tr>
             <tr>
-                <td style="border: 1px solid; padding:4px;" align="left">90.00 - 100.00</td>
-                <td style="border: 1px solid;" align="center">C+</td>
-                <td style="border: 1px solid;" align="center">4.00</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
             </tr>
             <tr>
-                <td style="border: 1px solid; padding:4px;"align="left">90.00 - 100.00</td>
-                <td style="border: 1px solid;" align="center">C</td>
-                <td style="border: 1px solid;" align="center">4.00</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
             </tr>
             <tr>
-                <td style="border: 1px solid; padding:4px;" align="left">90.00 - 100.00</td>
-                <td style="border: 1px solid;" align="center">C-</td>
-                <td style="border: 1px solid;" align="center">4.00</td>
+                <td></td>
+                <td><u>Dr. Rakyan Krisna, S.Kom., M.Kom.</u></td>
             </tr>
             <tr>
-                <td style="border: 1px solid; padding:4px;" align="left">90.00 - 100.00</td>
-                <td style="border: 1px solid;" align="center">D</td>
-                <td style="border: 1px solid;" align="center">4.00</td>
-            </tr>
-            <tr>
-                <td style="border: 1px solid; padding:4px;" align="left">90.00 - 100.00</td>
-                <td style="border: 1px solid;" align="center">E</td>
-                <td style="border: 1px solid;" align="center">4.00</td>
-            </tr>
-        </tbody>
-    </table>
-    <table style="margin-top: 15px; border-collapse: collapse; font-size: 12px;" width="50%">
-        <tbody>
-            <tr>
-                <td  align="center">&nbsp;</td>
-            </tr>
-            <tr>
-                <td  align="center">Jakarta, 8 Februari 2023</td>
-            </tr>
-            <tr>
-                <td  align="center">Head of Undergraduate Programme In Elearning</td>
-            </tr>
-            <tr>
-                <td  align="center">&nbsp;</td>
-            </tr>
-            <tr>
-            <tr>
-                <td  align="center">&nbsp;</td>
-            </tr>
-            <td style="vertical-align: bottom;" align="center"><u>Dr. Fulan S.MG</u></td>
-            </tr>
-            <tr>
-                <td style="vertical-align: text-top;" align="center">NIDN. 83127389</td>
-            </tr>
-            <tr>
-                <td  align="center">&nbsp;</td>
-            </tr>
-            <tr>
-                <td  align="center">&nbsp;</td>
+                <td></td>
+                <td>NIP. 10391031203</td>
             </tr>
         </tbody>
     </table>
 </div>';
+
 $footer5 = '
-<div style="">
+<div style="margintop:20px;">
     <table width="100%" style="border-collapse: collapse; font-size: 12px;">
         <tbody>
             <tr>

@@ -145,32 +145,70 @@ $header3 = '
 $header4 = '
 <div>
     <div style="text-align: center;">
-        <p style="font-weight: bold; font-size: 13pt; text-decoration: underline; text-decoration-thickness: 1px;">
-            FINAL GRADE REPORT (KHS)
+        <p style="font-weight: bold; font-size: 12pt; text-decoration-thickness: 1px;">
+            TRANSKRIP SEMENTARA
+        </p>
+    </div>
+    <div style="text-align: center;">
+        <p style="font-size: 7.5pt; text-decoration-thickness: 1px;">
+            <em>TEMPORARY TRANSCRIPT</em>
+        </p>
+    </div>
+    <div style="text-align: center; margin-top: 25px;">
+        <p style="font-weight: bold; font-size: 9pt; text-decoration-thickness: 1px;">
+            NOMOR : TS-05/2023/04/09
         </p>
     </div>
     <div style="margin-top: 25px;">
-        <table style="border-collapse: collapse; font-size: 14px;" width="100%">
+        <table style="border-collapse: collapse; font-size: 9pt;" width="100%">
             <tbody>
                 <tr>
-                    <td>NIM</td>
-                    <td>:</td>
-                    <td>84294899234</td>
+                    <td width="25%">Nama Mahasiswa</td>
+                    <td width="1%">:</td>
+                    <td width="31.5%">Samalakana bin Samalakatur</td>
+                    <td width="17.5%">Program Studi</td>
+                    <td width="1%">:</td>
+                    <td width="29%">Ilmu Ekonomi</td>
                 </tr>
                 <tr>
-                    <td width="180px">Student Name</td>
-                    <td width="7px">:</td>
-                    <td width="">FULAN</td>
+                    <td style="border-collapse: collapse; font-size: 7pt;"><em>Name</em></td>
+                    <td></td>
+                    <td style="border-collapse: collapse; font-size: 7pt;"><em>Samalakana bin Samalakatur</em></td>
+                    <td style="border-collapse: collapse; font-size: 7pt;"><em>Department</em></td>
+                    <td></td>
+                    <td style="border-collapse: collapse; font-size: 7pt;">Economics</td>
                 </tr>
                 <tr>
-                    <td>Semester / Academic Year</td>
+                    <td>Tempat/Tgl. Lahir</td>
                     <td>:</td>
-                    <td>4 / 2021 / 2022 Gasal</td>
+                    <td>London/6 Desember 2000</td>
+                    <td>Jenjang Studi</td>
+                    <td>:</td>
+                    <td>Strata 1 (S-1)</td>
                 </tr>
                 <tr>
-                    <td>Batch / Class / Major</td>
+                    <td style="border-collapse: collapse; font-size: 7pt;"><em>Place/Date of Birth</em></td>
+                    <td></td>
+                    <td style="border-collapse: collapse; font-size: 7pt;"><em>London/6 December 2000</em></td>
+                    <td style="border-collapse: collapse; font-size: 7pt;"><em>Degree</em></td>
+                    <td></td>
+                    <td style="border-collapse: collapse; font-size: 7pt;">Bachelor Degree</td>
+                </tr>
+                <tr>
+                    <td>Nomor Pokok Mahasiswa</td>
                     <td>:</td>
-                    <td>3848 / PR03B-eL / PJJ Ilmu Komunikasi</td>
+                    <td>123321123</td>
+                    <td>Tanggal Lulus</td>
+                    <td>:</td>
+                    <td>1 Januari 2023</td>
+                </tr>
+                <tr>
+                    <td style="border-collapse: collapse; font-size: 7pt;"><em>Student Number</em></td>
+                    <td></td>
+                    <td style="border-collapse: collapse; font-size: 7pt;"><em>123321123</em></td>
+                    <td style="border-collapse: collapse; font-size: 7pt;"><em>Date of Graduation</em></td>
+                    <td></td>
+                    <td style="border-collapse: collapse; font-size: 7pt;"><em>1 January 2023</em></td>
                 </tr>
             </tbody>
         </table>
@@ -194,10 +232,10 @@ $header5 = '
         <table style="border-collapse: collapse; font-size: 9pt;" width="100%">
             <tbody>
                 <tr>
-                    <td width="15%">Nama</td>
+                    <td width="17.5%">Nama</td>
                     <td width="1%">:</td>
                     <td width="34%"><strong>Samalakana bin Samalakatur</strong></td>
-                    <td width="15%">Fakultas</td>
+                    <td width="17.5%">Fakultas</td>
                     <td width="1%">:</td>
                     <td width="34%"><strong>Fakultas Pertanian (S-1)</strong></td>
                 </tr>
@@ -238,3 +276,5 @@ $header5 = '
     </div>
 </div>
 ';
+
+?>
