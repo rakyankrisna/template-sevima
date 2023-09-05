@@ -57,35 +57,36 @@ $header1 = '
 $header2 = '
 <div>
     <div style="text-align: center;">
-        <p style="font-weight: bold; font-size: 15pt; text-decoration: underline; text-decoration-thickness: 1px;">
-            KARTU HASIL STUDI (KHS)
-        </p>
-        <p style="font-weight: bold; margin-top: 5px;">
-            SEMESTER 5 - 2022 Ganjil
+        <p style="font-weight: bold; font-size: 12pt; text-decoration-thickness: 1px;">
+            PROVISIONARY TRANSCRIPT
         </p>
     </div>
     <div style="margin-top: 25px;">
-        <table style="border-collapse: collapse; font-size: 14px;" width="100%">
+        <table style="border-collapse: collapse; font-size: 9pt;" width="100%">
             <tbody>
                 <tr>
-                    <td width="180px">NAMA</td>
-                    <td width="7px">:</td>
-                    <td width="">FULAN</td>
+                    <td width="20%"><strong>Name</strong></td>
+                    <td width="1%"><strong>:</strong></td>
+                    <td width="29%"><strong>Samakalana bin Samalakatur</strong></td>
+                    <td width="20%"><strong>Program Study</strong></td>
+                    <td width="1%"><strong>:</strong></td>
+                    <td width="29%"><strong>S1 Ilmu Komunikasi</strong></td>
                 </tr>
                 <tr>
-                    <td>NPM</td>
-                    <td>:</td>
-                    <td>84294899234</td>
+                    <td width="20%"><strong>NIM</strong></td>
+                    <td width="1%"><strong>:</strong></td>
+                    <td width="29%"><strong>123123123</strong></td>
+                    <td width="20%"><strong>Major</strong></td>
+                    <td width="1%"><strong>:</strong></td>
+                    <td width="29%"><strong>Public Relation</strong></td>
                 </tr>
                 <tr>
-                    <td>PROGRAM STUDI</td>
-                    <td>:</td>
-                    <td>MANAJEMEN</td>
-                </tr>
-                <tr>
-                    <td>PEMBIMBING AKADEMIK</td>
-                    <td>:</td>
-                    <td>JAMES BOND</td>
+                    <td width="20%"><strong>Place / Date of Birth</strong></td>
+                    <td width="1%"><strong>:</strong></td>
+                    <td width="29%"><strong>Amsterdam, 11 March 2001</strong></td>
+                    <td width="20%"><strong>Degree Obtain</strong></td>
+                    <td width="1%"><strong>:</strong></td>
+                    <td width="29%"><strong>S1</strong></td>
                 </tr>
             </tbody>
         </table>

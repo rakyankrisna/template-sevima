@@ -6,8 +6,8 @@ $footer1 = '
     <table width="100%" style="border-collapse: collapse; font-size: 12px;">
         <tbody>
             <tr>
-                <td width="260px"&nbsp;</td>
-                <td width="260px">&nbsp;</td>
+                <td width="32.5%"&nbsp;</td>
+                <td width="32.5%">&nbsp;</td>
                 <td width="">Jakarta,</td>
             </tr>
             <tr>

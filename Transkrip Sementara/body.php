@@ -14,18 +14,23 @@ for ($i = 1; $i < 10; $i++) {
 }
 
 $htmlBody2 = '';
-for ($i = 1; $i < 8; $i++) {
+for ($i = 1; $i < 6; $i++) {
+    $j = $i + 5;
     $htmlBody2 .= "
-    <tr>
+    <tr style='margin-top: 20px;'>
         <td style='border: 1px solid; padding:4px;' align='center'>$i</td>
-        <td style='border: 1px solid; padding:4px;' align='left'>Fisika Rekayasa</td>
-        <td style='border: 1px solid; padding:4px;' align='center'>2</td>
-        <td style='border: 1px solid; padding:4px;' align='center'>2.00</td>
-        <td style='border: 1px solid; padding:4px;' align='center'>A</td>
+        <td style='border: 1px solid; padding:4px;' align='left'>Communication Study</td>
         <td style='border: 1px solid; padding:4px;' align='center'>4</td>
-        <td style='border: 1px solid; padding:4px;' align='center'>2</td>
-        <td style='border: 1px solid; padding:4px;' align='center'>2</td>
-        <td style='border: 1px solid; padding:4px;' align='center'>LULUS</td>
+        <td style='border: 1px solid; padding:4px;' align='center'>A</td>
+        <td style='border: 1px solid; padding:4px;' align='center'>4.00</td>
+        <td style='border: 1px solid; padding:4px;' align='center'>16.00</td>
+        <td></>
+        <td style='border: 1px solid; padding:4px;' align='center'>$j</td>
+        <td style='border: 1px solid; padding:4px;' align='left'>Communication Study</td>
+        <td style='border: 1px solid; padding:4px;' align='center'>4</td>
+        <td style='border: 1px solid; padding:4px;' align='center'>A</td>
+        <td style='border: 1px solid; padding:4px;' align='center'>4.00</td>
+        <td style='border: 1px solid; padding:4px;' align='center'>16.00</td>
     </tr>
     ";
 }
@@ -109,104 +114,72 @@ $body1 = "
 </div>";
 
 $body2 = "
-<div style='margin-top: 15px;'>
-    <table style='border-collapse: collapse; font-size: 14px;' width='100%'>
+<div style='margin-top: 20px;'>
+    <table style='text-align: center; border-collapse: collapse; font-size: 9pt;' width='100%'>
         <thead>
             <tr>
-                <th style='border: 1px solid;' width='40px' rowspan='2'>NO</th>
-                <th style='border: 1px solid;' width='' rowspan='2'>MATA KULIAH</th>
-                <th style='border: 1px solid;' width='60px' rowspan='2'>SKS</th>
-                <th style='border: 1px solid;' width='' colspan='2'>NILAI</th>
-                <th style='border: 1px solid;' width='60px' rowspan='2'>SKSN</th>
-                <th style='border: 1px solid;' width='60px' rowspan='2'>SKSD</th>
-                <th style='border: 1px solid;' width='70px' rowspan='2'>Rencana Ke</th>
-                <th style='border: 1px solid;' width='80px' rowspan='2'>Ket.</th>
-            </tr>
-            <tr>
-                <th style='border: 1px solid;' width='60px'>Angka</th>
-                <th style='border: 1px solid;' width='60px'>Huruf</th>
+                <th style='border: 1px solid;' width='2.5%'><strong>NO</strong></th>
+                <th style='border: 1px solid;' width='33.75'><strong>SUBJECT</strong></th>
+                <th style='border: 1px solid;' width='2.5%'><strong>C</strong></th>
+                <th style='border: 1px solid;' width='2.5%'><strong>G</strong></th>
+                <th style='border: 1px solid;' width='2.5%'><strong>GV</strong></th>
+                <th style='border: 1px solid;' width='5%'><strong>AG</strong></th>
+                <th style='border: 0;' width='2.5%'></th>
+                <th style='border: 1px solid;' width='2.5%'><strong>NO</strong></th>
+                <th style='border: 1px solid;' width='33.75%'><strong>SUBJECT</strong></th>
+                <th style='border: 1px solid;' width='2.5%'><strong>C</strong></th>
+                <th style='border: 1px solid;' width='2.5%'><strong>G</strong></th>
+                <th style='border: 1px solid;' width='2.5%'><strong>GV</strong></th>
+                <th style='border: 1px solid;' width='5%'><strong>AG</strong></th>
             </tr>
         </thead>
         <tbody>
             $htmlBody2
         </tbody>
     </table>
-    <table width='100%' style='text-align: center; margin-top: 15px; border-collapse: collapse; font-size: 14px;'>
-        <thead>
-            <tr>
-                <th width='' style='border: 1px solid; text-align: left; padding:4px;'>Jumlah</th>
-                <th width='100px' style='border: 1px solid;'>SKS</th>
-                <th width='100px' style='border: 1px solid;'>SKS Dicapai</th>
-                <th width='100px' style='border: 1px solid;'>SKS X Nilai</th>
-                <th width='100px' style='border: 1px solid;'>IP</th>
-            </tr>
-        </thead>
+    <table style='border-collapse: collapse; font-size: 9pt; margin-top:15px' width='100%'>
         <tbody>
             <tr>
-                <td style='border: 1px solid;  text-align: left; padding:4px;'>Semester Ini</td>
-                <td style='border: 1px solid;'>19</td>
-                <td style='border: 1px solid;'>17</td>
-                <td style='border: 1px solid;'>49</td>
-                <td style='border: 1px solid;'>2.58</td>
+                <td>ACCUMULATED CREDITS</td>
+                <td>:</td>
+                <td colspan='4'>&nbsp;</td>
             </tr>
             <tr>
-                <td style='border: 1px solid;  text-align: left; padding:4px;'>Kumulatif</td>
-                <td style='border: 1px solid;'>141</td>
-                <td style='border: 1px solid;'>131</td>
-                <td style='border: 1px solid;'>395</td>
-                <td style='border: 1px solid;'>2.90</td>
+                <td colspan='6'>KETERANGAN</td>
+            </tr>
+            <tr>
+                <td>SKS</td>
+                <td>:&nbsp;</td>
+                <td>Satuan Kredit Semester</td>
+                <td>Jumlah SKS Yang Diambil</td>
+                <td>:</td>
+                <td>32</td>
+            </tr>
+            <tr>
+                <td> HM</td>
+                <td>:</td>
+                <td>Huruf Mutu</td>
+                <td>Jumlah SKS Yang lulus</td>
+                <td>:</td>
+                <td>32</td>
+            </tr>
+            <tr>
+                <td> AM </td>
+                <td>:</td>
+                <td>Angka Mutu</td>
+                <td> Jumlah Mutu</td>
+                <td>:</td>
+                <td>117</td>
+            </tr>
+            <tr>
+                <td>M</td>
+                <td>:</td>
+                <td>Mutu</td>
+                <td>Index Prestasi Kumulatif (IPK)</td>
+                <td>:</td>
+                <td>3.66</td>
             </tr>
         </tbody>
-    </table>
-    <table width='100%' style='margin-top: 25px; border-collapse: collapse; font-size: 14px;'>
-        <tr>
-            <td></td>
-            <td style=' font-weight: bold;'>Keterangan:</td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td>SKS</td>
-            <td>:</td>
-            <td>Satuan Kredit Semester</td>
-        </tr>
-        <tr>
-            <td></td>
-            <td>SKSN</td>
-            <td>:</td>
-            <td>SKS x Nilai</td>
-        </tr>
-        <tr>
-            <td width='70px'></td>
-            <td width='190px'>SKSD</td>
-            <td width=''>:</td>
-            <td width=''>SKS yang dicapai</td>
-        </tr>
-        <tr>
-            <td></td>
-            <td>SKS Semester</td>
-            <td>:</td>
-            <td>SKS yang dicapai semester ini</td>
-        </tr>
-        <tr>
-            <td></td>
-            <td>SKS Kumulatif</td>
-            <td>:</td>
-            <td>Total SKS yang Dicapai</td>
-        </tr>
-        <tr>
-            <td></td>
-            <td>IP Semester</td>
-            <td>:</td>
-            <td>Indeks Prestasi Semester</td>
-        </tr>
-        <tr>
-            <td></td>
-            <td>IP Kumulatif</td>
-            <td>:</td>
-            <td>Indeks Prestasi Kumulatif</td>
-        </tr>
     </table>
 </div>";
 
